@@ -55,3 +55,27 @@ nav li {
   display: inline;
   justify-content: flex-end;
 }
+
+.section {
+ border: 1px solid black;
+}
+
+.section main {
+  background-image: "img-story-main.png"
+}
+
+.column {
+  display: flex;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
