@@ -24,6 +24,7 @@ header {
   width: 70px;
   height: 60px;
   margin-right: 12px;
+
 }
 
 .logo span {
@@ -32,7 +33,6 @@ header {
 
 header nav {
   display: flex;
-  justify-content: flex-end;
   padding-right: 40px;
 }
 
@@ -61,11 +61,19 @@ nav li {
 }
 
 .section main {
-  background-image: "img-story-main.png"
+  display: flex;
+
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  height: 300px;
+  color: white;
+  align-items: left;
+
+
 }
 
 .column {
   display: flex;
+    flex-direction: row;
 }
 
 .column.large {
